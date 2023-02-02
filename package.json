@@ -1,7 +1,7 @@
 {
-  "name": "sky",
+  "name": "the_secret_of_the_black_walrus_society",
   "version": "1.0.1",
-  "description": "An adventure on the Planet Snorlag",
+  "description": "The Secret of the Black Walrus Society",
   "main": "index.js",
   "scripts": {
     "start": "node start.cjs",

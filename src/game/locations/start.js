@@ -2,7 +2,7 @@
 Game.start = () => {
   msg(`
 
-    # Mystery story
+    # The Secret of the Black Walrus Society
     
     ## A game by spaceflounder
     
@@ -16,9 +16,9 @@ Game.intro1 = () => {
 
     ### London Chinatown, 1884
 
-    You've never read about me in the papers, or in any crime journal. On the streets, they
-    call me Madame Soo. Sometimes, to Scotland Yard, I'm the China Doll, or the Invisible Detective.
-    They're not entirely a bad lot, I suppose. But when the police find 
+    You've never read about me in the papers, or in any journal. You can
+    call me Madame Soo. Sometimes, at Scotland Yard, they call me the China Doll.
+    They are not entirely a bad lot, I suppose. But when the police find 
     themselves truly baffled, they come to me.
 
     Thus, when there was an urgent knock on the door of my small parlour off West India Dock Road, I knew precisely who
@@ -44,10 +44,12 @@ Game.intro1_1 = () => {
 Game.intro2 = () => {
   msg(`
 
-    Chief Inspector Gould's face appeared in the dim moonlight. "Good evening, Madame Soo," he said, entering as
-    swiftly has he could and shutting the door behind him.
+    Chief Inspector Gould's face appeared in the dim moonlight.
+    "Good evening, Madame Soo," he said, entering as
+    swiftly as he could and shutting the door behind him.
 
-    "Good evening, Inspector," I replied. His face was grim.
+    "Good evening, Inspector," I replied. As a tall
+    pale gaunt Englishman, he possessed superior skill in looking dour.
           
     `)
 
@@ -70,10 +72,10 @@ Game.intro2 = () => {
     "Shouldn't you be at the Underwood Club?" I asked. "Surely Merrington and his fellows are grieved
     to have lost their favored pigeon at whist."
 
-    "Ha, ha." Gould was less than pleased. "One day I shall be most glad to ascertain how you have come
-    to be aware of my whist habits, or my associates, as Underwood is a gentleman's club."
+    "Ha, ha." Gould was hardly pleased. "One day I shall be most glad to ascertain how you have come
+    to be aware of my whist habits, or my associates, as Underwood is a private gentleman's club."
 
-    "You're at a loss as I am no gentleman," I said.
+    "You're at a loss, for I am no gentleman," I said.
 
     "For a certainty you are not."
     
@@ -196,17 +198,17 @@ Game.intro6 = () => {
 Game.intro7 = () => {
   msg(`
 
-      We stood on a wide stone porch before a thick timber door. The door swung open to reveal
+      We stood on a wide stone porch before a great timber door. The door swung open to reveal
       Bixby, Chief Inspector Gould's assistant deputy. Whereas Gould had occasional glimmers
       of brilliance, Bixby had a mind like a lightless cellar.
 
-      "Good news, Chief Inspector," he said. "I've cracked the case. You needn't have retrieved the
-      China Doll."
+      "Good news, Chief Inspector," he said. "I've cracked the case. It would seem you've fetched the
+      China Doll in vain."
       
     `)
 
-  btn(`"Always pleasant to see you as well, Bixby."`, () => {
-    msg(`"Always pleasant to see you as well, Bixby," I grumbled.`)
+  btn(`"Most pleased to see you as well, Bixby."`, () => {
+    msg(`"Most pleased to see you as well, Bixby," I grumbled.`)
     go("intro8")()
   })
 
@@ -219,7 +221,9 @@ Game.intro7 = () => {
 Game.intro8 = () => {
   msg(`
 
-      "The case is simplicity itself," said Bixby with a broadening grin. "You know how 
+      "The case is simplicity itself," said Bixby with a broadening grin. Bixby was
+      fairly young for his position, though he appeared older owing to some girth
+      and his thick copper mustache. "You know how 
       Mrs. Werstrom found the body?"
 
       "Yes," nodded Gould.
@@ -227,7 +231,7 @@ Game.intro8 = () => {
       "How do we know she isn't the murderer?"
 
       "The 90 pound, 60-year old housekeeper managed to choke the still-robust captain of
-      the Queen's navy," said Gould. "I think we shall have greater success with the
+      the Queen's navy," said Gould. "I think we shall perhaps have some greater success with the
       so-called China Doll, eh Madame Soo?"
       
     `)
@@ -243,6 +247,6 @@ Game.intro8 = () => {
     Bixby mumbled something I was glad to not have heard.
     
     `)
-    go("insideManorHouse")()
+    go("manorHouseFoyer")()
   })
 }

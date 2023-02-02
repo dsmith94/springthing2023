@@ -1,12 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "Everything Ends on Snorlag",
-  "short_name": "Everything Ends on Snorlag",
-  "start_url": "https://dsmith94.github.io/sky",
+  "name": "The Secret of the Black Walrus Society",
+  "short_name": "The Secret of the Black Walrus Society",
+  "start_url": "https://dsmith94.github.io/springthing2023",
   "display": "standalone",
   "background_color": "#242424",
   "theme_color": "#ffffff",
-  "description": "An adventure game set (inconveniently) on the planet Snorlag.",
+  "description": "An adventure game of brigands and detectives, starring Madame Soo.",
   "icons": [
     {
       "src": "maskable_icon.png",

@@ -2,7 +2,7 @@
 Game.start = () => {
   msg(`
 
-    # The Secret of the Black Walrus Society
+    # Secret of the Black Walrus
     
     ## A game by spaceflounder
     
@@ -105,8 +105,7 @@ Game.intro4 = () => {
   I nodded. "I will exact my usual fee, of course."
 
   "Per our usual arrangement," said the Inspector. Soon we were out of my parlour and in the hot dark
-  of summer in Canary Wharf. The air was thick with tar and cheap tobacco. The work on the dock never
-  stops.
+  of summer in Canary Wharf. The air was thick with tar and cheap tobacco. The dock never sleeps.
 
   The cabbie nodded as we took our seats, and with a flick of his wrist we were headed
   north. "You've heard of Captain Roger Bennett?"
@@ -156,7 +155,7 @@ Game.intro4 = () => {
         
         "And the door was still locked," I said.
 
-        "It was," said Gould, "The gardener, Mr. Thurman, is a capable man and handy with tools. He removed the knob and they
+        "It was," said Gould, "The gardener, Mr. Thurman, is a capable man and handy with tools. He removed the knob and
         found Bennett perished by strangulation in his bed."
         
         `)
@@ -171,7 +170,7 @@ Game.intro5 = () => {
 
       I nodded. "I assume the crime scene is as you found it."
 
-      "Exactly as we found it," said the Inspector. "Mrs. Werstrom and Mr. Thurman are also on hand for you to interview."
+      "Exactly as we found it," said the Inspector. "Mrs. Werstrom and Mr. Thurman are also present to interview."
     
     `)
 
@@ -186,7 +185,7 @@ Game.intro6 = () => {
       "I shall only hope you may shed some light on this strange and sinister business," said Gould with a dark scowl.
       
       Soon our hansom arrived at the gate of a wide rolling lawn, blue under the light of the moon. Beyond the lawn
-      was a tall manor house, resembling a black shadowy tower by night.
+      was a tall manor house, a black shadowy tower by night.
 
       "Stay here," Gould instructed the cabbie as we departed, "I'll be back shortly."
     
@@ -198,8 +197,8 @@ Game.intro6 = () => {
 Game.intro7 = () => {
   msg(`
 
-      We stood on a wide stone porch before a great timber door. The door swung open to reveal
-      Bixby, Chief Inspector Gould's assistant deputy. Whereas Gould had occasional glimmers
+      We stood on a wide stone porch in nearly total darkness. The door swung open to reveal
+      Bixby, Chief Inspector Gould's assistant deputy. Whereas Gould exhibited occasional glimmers
       of brilliance, Bixby had a mind like a lightless cellar.
 
       "Good news, Chief Inspector," he said. "I've cracked the case. It would seem you've fetched the
@@ -231,7 +230,7 @@ Game.intro8 = () => {
       "How do we know she isn't the murderer?"
 
       "The 90 pound, 60-year old housekeeper managed to choke the still-robust captain of
-      the Queen's navy," said Gould. "I think we shall perhaps have some greater success with the
+      the Queen's navy," said Gould. "I think we may perhaps have some keener results from the
       so-called China Doll, eh Madame Soo?"
       
     `)
@@ -241,7 +240,7 @@ Game.intro8 = () => {
     msg(`
     
     "I've business still at Scotland Yard, so I must leave," said Gould to me, "But I shall return later tonight
-    to confer with you on your investigation. Bixby," he addressed the assistant deputy, "Please ensure Madame
+    to confer on the investigation. Bixby," he addressed the assistant deputy, "Please ensure Madame
     Soo has everything she asks for. She is in charge in my absence."
 
     Bixby mumbled something I was glad to not have heard.

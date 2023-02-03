@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "The Secret of the Black Walrus Society",
-  "short_name": "The Secret of the Black Walrus Society",
+  "name": "Secret of the Black Walrus",
+  "short_name": "Secret of the Black Walrus",
   "start_url": "https://dsmith94.github.io/springthing2023",
   "display": "standalone",
   "background_color": "#242424",

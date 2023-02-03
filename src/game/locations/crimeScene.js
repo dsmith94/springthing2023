@@ -19,9 +19,19 @@ Game.crimeScene = () => {
     `
   )
 
-  btn(`Inspect the chests`, () => {
-    setVal('foundHiddenChest', true)
-  
+  btn(
+    `Examine the window`,
+    `
+    
+    The caked layers of dust and told me the window had not been opened in years, and for a fact,
+    could not be opened without the force of ten men.
+    
+    `
+  )
+
+  btn(`Examine the chests`, () => {
+    setVal("foundHiddenChest", true)
+
     msg(`
     
     Most of the chests were empty. A few had some useless baubles acquired from more
@@ -38,8 +48,10 @@ Game.crimeScene = () => {
       `
     
     The strange chest was no more than about 3 foot long and 2 foot wide. There was a latch
-    on the lock so it could be opened on the inside. It was empty, save for the rude smell
+    on the lock so it could be opened on the inside. It was empty, save for the rude odor
     of sweat and leather.
+
+    Carved near the bottom on the outside were two letters: LH.
     
     `
     )

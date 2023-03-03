@@ -1,4 +1,18 @@
 
+const focusCorrectly = () => {
+  const firstButton = document.getElementsByTagName("button")[0]
+  const firstInput = document.getElementsByTagName("input")[0]
+  setTimeout(() => {
+    if (firstInput) {
+      firstInput.focus()
+    } else {
+      if (firstButton) {
+        firstButton.focus()
+      }
+    }  
+  }, 100)
+}
+
 const once = (label, callback) => {
   const id = `d${stringToHash(label)}`
 
@@ -148,6 +162,7 @@ const btn = (label, callback, unshift) => {
             }
           })
         }
+        focusCorrectly()
       }, 650)
     }
 

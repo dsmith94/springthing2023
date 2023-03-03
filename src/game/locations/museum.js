@@ -45,7 +45,7 @@ Game.museum = () => {
           msg(`
         
         Bixby returned with a formidable stack of records. "A mayor of wickedness even amongst the filthiest scoundrels.
-        Charles Hob, member of the Black Walrus Society. Murder, theft, smuggling, in at least a dozen countries 
+        Charles Hob, executive member of the Black Walrus Society. Murder, theft, smuggling, in at least a dozen countries 
         and probably even more we don't know about. Has spent the last six years in St. Helena,
         locked up with 12 of his brethren. It was Captain Bennett who finally caught 'im.
         

@@ -5,15 +5,15 @@ const lastBitOfTalking = () => {
 
   msg(`
   
-      "I believe we shall find that with the murderer himself," I said. A man who can fit inside a travelers trunk,
+      "I believe we shall find that with the murderer himself," I said. “A man who can fit inside a travelers trunk,
       open it from the inside after Bennett had gone to bed, and commit a most heinous deed. The Captain's own screams drew the attention
       of dear Mrs Werstrom outside the door.
 
       “Our culprit thus possessed ample time to return to his box, allow the door to be opened by force, wait until the coast was clear
       before leaving the scene.”
 
-      "Hmm." Gould nodded. "I suppose this might be helpful, then. Bixby found this most fascinating connection this morning. A fellow,
-      with the physical talents and gifts you describe, with ties to the Black Walrus Society."
+      "Hmm." Gould nodded. "How serendipitous, then, that Bixby discovered this fascinating connection this morning. A fellow,
+      possessed of an extraordinary faculty for physical feats, with ties to the Black Walrus Society."
 
       He produced from this coat a weathered circus advertisement, which read in loud block letters:
 
@@ -22,7 +22,7 @@ const lastBitOfTalking = () => {
   
   `)
 
-  btn(`"I believe we've found our rat,"`, () => {
+  btn(`"I believe we've found our rat."`, () => {
 
     msg(`
 

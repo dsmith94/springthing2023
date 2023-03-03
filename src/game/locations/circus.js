@@ -43,7 +43,12 @@ Game.circus = () => {
                 if (parse('aldi')) {
 
                     if (getVal('stockfordDoomed') === 3) {
-                        btn(`"He's in here," said the man.`, go('insideCircus'))
+                        msg(`
+                        
+                            The door swung open. "He's in here."
+                        
+                        `)
+                        btn(`"Thank you, good sir."`, go('insideCircus'))
                     } else {
                         msg(`
                         

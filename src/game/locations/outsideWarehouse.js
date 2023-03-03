@@ -155,7 +155,7 @@ She whispered something and I produced another absurd sum, which she snatched in
 
 	She whispered something and I produced another absurd sum, which she snatched into her blouse.
 
-	"You that should visit a certain Mr Stockford, at Surrey Club."
+	"You should visit a certain Mr Stockford, at Surrey Club."
 
 	"The Surrey Club?"
 
@@ -176,7 +176,7 @@ She whispered something and I produced another absurd sum, which she snatched in
 
 	I groaned and produced another absurd sum.
 
-	"You that should visit a certain Mr Stockford, at Surrey Club."
+	"You should visit a certain Mr Stockford, at Surrey Club."
 
 	"The Surrey Club?"
 

@@ -101,7 +101,7 @@ Game.Stockford = {
         His eyes darted around the room more nervously than before. “The Walrus spans the globe. In order to keep track of who
         he could trust, and who he couldn't, the ol' Captain kept a journal.
 
-        “Charles Hob, a stupendous apothecary of most rancid villainy, wanted that record of conspirators with an almost consuming fire. But
+        “Charles Hob, a stupendous apothecary of most rancid villainy, wanted that record of conspirators with a consuming fire. But
         Bennett tricked him, and sent Hob and his closest lieutenants down to St. Helena.”
         
         `)

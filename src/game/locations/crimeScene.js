@@ -13,23 +13,24 @@ Game.crimeScene = () => {
     `Examine the captain`,
     `
     
-    Under the sheets, Bennett was naked. Judging by the state of the rigor mortis,
-    I ascertained he had been dead less than a few hours. The trachea in the neck was crushed.
+    Wrapped beneath his sheets were the pale remains of the Captain, naked as a plucked hen. His skin was icy and blue.
+    Judging by the state of the rigor mortis, I ascertained he had met his unconscionable demise less than a few hours.
+    The trachea in the neck was crushed.
     
     `
   )
 
-  btn(
+  once(
     `Examine the window`,
     `
     
-    The caked layers of dust and told me the window had not been opened in years, and for a fact,
-    could not be opened without the force of ten men.
+    Caked layers of dust and told me the window had not been opened in years, and for a fact,
+    could not be opened without the force of three men.
     
     `
   )
 
-  btn(`Examine the chests`, () => {
+  once(`Examine the chests`, () => {
     setVal("foundHiddenChest", true)
 
     msg(`
@@ -37,7 +38,8 @@ Game.crimeScene = () => {
     Most of the chests were empty. A few had some useless baubles acquired from more
     distant regions.
 
-    One chest in particular struck me as unusual.
+    One chest in particular struck me as unusual, as though not belonging with the rest of
+    the collection.
     
     `)
   })
@@ -51,7 +53,9 @@ Game.crimeScene = () => {
     on the lock so it could be opened on the inside. It was empty, save for the rude odor
     of sweat and leather.
 
-    Carved near the bottom on the outside were two letters: LH.
+    Carved on the bottom, in lettering so faint as to be barely readable:
+    
+    *ASTLEY RT*
     
     `
     )

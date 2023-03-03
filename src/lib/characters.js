@@ -271,7 +271,7 @@ const talk = (character) => {
     c$ = g$[character]
     c$["hasMet"] = true
     const s = c$?.state ?? "talk"
-    addToMap()
+    //addToMap()
     if (g$?.map?.length === 1) {
       if (!g$.showFastTravelTip) {
         g$.showFastTravelTip = 1

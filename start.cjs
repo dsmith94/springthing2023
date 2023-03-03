@@ -15,14 +15,16 @@ const isDirectory = async (path) => {
   }
 }
 
+
+
 const createTree = async (path) => {
   const data = await fs.promises.readdir(path)
   for (const item of data) {
     const currentLocation = `${path}/${item}`
     const isDir = await isDirectory(currentLocation)
     if (!isDir) {
-      code[currentLocation] = fs.readFileSync(currentLocation, "utf8")
-      continue
+        code[currentLocation] = fs.readFileSync(currentLocation, "utf8")
+        continue
     }
     await createTree(currentLocation)
   }

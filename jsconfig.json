@@ -3,5 +3,5 @@
       "src/game/**/*.js",
       "src/lib/**/*.js",
       "jsdoc/*.js"
-, "src/engine/menu.js"    ]
+, "src/engine/menu.js", "src/game/characters/stockford.js", "src/game/locations/surrey.sky", "src/game/locations/scotlandYard.sky"    ]
 }

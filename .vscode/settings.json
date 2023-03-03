@@ -1,4 +1,13 @@
 {
     "prettier.semi": false,
-    "editor.hover.enabled": true
+    "editor.hover.enabled": true,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    },
+    "editor.suggest.showFunctions": false,
+    "javascript.suggestionActions.enabled": false,
+    "javascript.suggest.completeJSDocs": false,
+    "javascript.suggest.enabled": false,
+    "editor.suggest.showKeywords": true
 }

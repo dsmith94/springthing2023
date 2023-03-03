@@ -91,46 +91,6 @@ const btn = (label, callback, unshift) => {
   // prepare to create button
   const e = document.getElementById("btns")
 
-  /*
-  if (Array.isArray(options)) {
-    const idl = `bta-${stringToHash(Object.keys(options).join("-"))}-l`
-    if (g$[idl] === undefined) {
-      g$[idl] = options.length - 1
-    }
-    for (let i = options.length - 2; i >= 0; i -= 1) {
-      const b = options[i]
-      if (typeof b === "object") {
-        const lbl = Object.keys(b).filter((x) => reserved.indexOf(x) === -1)[0]
-        const opt = {}
-        for (const r of reserved) {
-          opt[r] = options[r]
-        }
-        opt[lbl] = () => {
-          if (typeof b[lbl] === "function") {
-            b[lbl]()
-          } else {
-            msg(b[lbl])
-          }
-          g$[idl] -= 1
-        }
-        once(opt)
-      }
-    }
-    if (g$[idl] === 0) {
-        const i = options.length - 1
-        const opt = { ...options[i], unshift: true }
-        btn(opt)
-    }
-    return
-  } else {
-    // only validate button if options object is correct
-    if (typeof options === "object") {
-      label = Object.keys(options).filter((x) => reserved.indexOf(x) === -1)[0]
-      callback = options[label]
-    }
-  }
-  */
-
   // if we're good to go, begin button creation
   if (e && label && callback) {
     // button count may not exist, create it if it's not there
@@ -188,7 +148,7 @@ const btn = (label, callback, unshift) => {
             }
           })
         }
-      }, 450)
+      }, 650)
     }
 
     b.className = "button"

@@ -1,26 +1,6 @@
 
 
-/**
- * Callback used if user calls msg with a function.
- *
- * @callback msgCallback
- * @return {string} Returns string to be displayed on screen.
- * 
- */
 
-
-
-/**
- * @function msg
- * 
- * Display a paragraph on screen. This is the most common form of output to user.
- * If a string or callback array is passed, the msg function will incrementally print the
- * first element, then the next, and so on, until the last element, which will continue to be
- * printed each time msg is called on that function. Otherwise, a callback returning a string
- * or a string can be passed.
- *  
- * @param {string | msgFunction | Array<string | msgFunction>} element Content to display.
- */
 const msg = (element) => {
   // private function to handle array printing in msg
   const incrementPrint = (arr) => {
@@ -62,4 +42,26 @@ const msg = (element) => {
       page.innerHTML += skylight(element())
     }
   }
+}
+
+
+/**
+ * @function spaced
+ * 
+ * Display a paragraph on screen. This is the most common form of output to user.
+ * If a string or callback array is passed, the msg function will incrementally print the
+ * first element, then the next, and so on, until the last element, which will continue to be
+ * printed each time msg is called on that function. Otherwise, a callback returning a string
+ * or a string can be passed.
+ *  
+ * @param {string} element Content to display.
+ */
+const spaced = (element) => {
+  const page = document.getElementById("page")
+  if (page) {
+      const div = document.createElement('div')
+      div.className = 'spacedMsg'
+      div.innerHTML = skylight(element, true)
+      page.appendChild(div)
+    }
 }

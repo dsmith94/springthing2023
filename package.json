@@ -1,7 +1,7 @@
 {
-  "name": "the_secret_of_the_black_walrus_society",
+  "name": "steal_10_treasures_to_win_this_game",
   "version": "1.0.1",
-  "description": "The Secret of the Black Walrus Society",
+  "description": "Steal 10 Treasures to Win This Game",
   "main": "index.js",
   "scripts": {
     "start": "node start.cjs",

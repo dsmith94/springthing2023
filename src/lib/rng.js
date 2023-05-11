@@ -52,9 +52,9 @@ const countdown = (arr) => {
  */
 const pick = (arr) => {
   const id = `p{${stringToHash(arr.join('-'))}}`
-  if (!g$[id] || !g$[id]?.length) {
-    g$[id] = shuffle([...arr])
+  if (!game[id] || !game[id]?.length) {
+    game[id] = shuffle([...arr])
   }
-  return g$[id].pop()
+  return game[id].pop()
 }
 

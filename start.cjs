@@ -16,7 +16,6 @@ const isDirectory = async (path) => {
 }
 
 
-
 const createTree = async (path) => {
   const data = await fs.promises.readdir(path)
   for (const item of data) {
@@ -31,112 +30,14 @@ const createTree = async (path) => {
 }
 
 
-const getLocationNames = (allTheCode) => {
-  const loc = [];
-  allTheCode = allTheCode.split('\n')
-  allTheCode.map((line, lineNumber) => {
-    if (line.indexOf('/** @type {LocationType} */') > -1) {
-      const nextLine = allTheCode[lineNumber + 1]
-      if (nextLine) {
-        if (nextLine.trim().indexOf('Game.') === 0) {
-          const tokens = nextLine.trim().split('=')
-          const id = tokens[0].slice(5).trim()
-          loc.push(`'${id}'`)
-        }
-      }
-    }
-  })
-  return `
-/**
- * @typedef GameLocationID
- * @type {${loc.join('|')}}
- */
-  `
-}
-
-
-const getValNames = (allTheCode) => {
-  const g = /getVal\((["'])[^]*?\1/
-  const s = /setVal\((["'])[^]*?\1/
-  let matches = []
-  allTheCode = allTheCode.split('\n')
-  for (const line of allTheCode) {
-    const l = line.match(s)
-    const r = line.match(g)
-    if (l) {
-      matches.push(l[0])
-    }
-    if (r) {
-      matches.push(r[0])
-    }
-  }
-  matches = matches.map(x => x.slice(8, x.length - 1)).map(x => `"${x}"`)
-  matches = [...new Set(matches)]
-  return `
-
-  /**
- * @typedef Values
- * @type {${matches.join('|')}}
- */    
-  
-`
-}
-
-
-const getCharacterNames = (allTheCode) => {
-  const chars = [];
-  allTheCode = allTheCode.split('\n')
-  allTheCode.map((line, lineNumber) => {
-    if (line.indexOf('/** @type {CharacterType} */') > -1) {
-      const nextLine = allTheCode[lineNumber + 1]
-      if (nextLine) {
-        if (nextLine.trim().indexOf('Game.') === 0) {
-          const tokens = nextLine.trim().split('=')
-          const id = tokens[0].slice(5).trim()
-          chars.push(`'${id}'`)
-        }
-      }
-    }
-  })
-  return `
-/**
- * @typedef Character
- * @type {${chars.join('|')}}
- */
-  `
-}
-
-
 const buildCodeTree = async () => {
   try {
     await createTree(srcPath)
-    const wholeEnchilada = Object.keys(code).map(k => code[k]).join('\n')
-    const locations = getLocationNames(wholeEnchilada)
-    const characters = getCharacterNames(wholeEnchilada)
-    const values = getValNames(wholeEnchilada)
     const result = UglifyJS.minify(code, {
-      toplevel: true
+      toplevel: false
     })
     const minifiedBuffer = Buffer.from(result.code)
-    const locationBuffer = Buffer.from(locations)
-    const characterBuffer = Buffer.from(characters)
-    const valBuffer = Buffer.from(values)
-    fs.writeFile("./public/sky.min.js", minifiedBuffer, (err) => {
-      if (err) {
-        throw err
-      } 
-    })
-    fs.writeFile("./jsdoc/locations.js", locationBuffer, (err) => {
-      if (err) {
-        throw err
-      } 
-    })
-    fs.writeFile("./jsdoc/characters.js", characterBuffer, (err) => {
-      if (err) {
-        throw err
-      } 
-    })
-    fs.writeFile("./jsdoc/vals.js", valBuffer, (err) => {
+    fs.writeFile("./public/adv.min.js", minifiedBuffer, (err) => {
       if (err) {
         throw err
       } 
@@ -146,7 +47,7 @@ const buildCodeTree = async () => {
   }
 }
 
-chokidar.watch("./src").on("all", (event, path) => {
+chokidar.watch("./src").on("all", () => {
   buildCodeTree()
 })
 buildCodeTree()

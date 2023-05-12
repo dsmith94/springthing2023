@@ -6,9 +6,9 @@ Game.rooms.scullery = () => {
 
   setExitsHeader(["right", "down"])
 
-  cmd('l', [`Taste scullery`, `That seems like a great way to catch an infection.`])
+  cmd('l', [`taste scullery`, `If you wanna catch an infection, here's your chance.`])
 
-  cmd('s', [`Smell scullery`, `It smells like something was cooked in here recently.`])
+  cmd('s', [`smell scullery`, `It smells like something was cooked in here recently.`])
   cmd('f', ['feel wall', `You're the touchy-feely type, aren't you?`])
 
   cmd(

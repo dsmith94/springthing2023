@@ -10,7 +10,7 @@ Game.things.diamondSpike = {
         msg(`You very carefully remove the diamond spike.`)
         msg(`Taken.`)
         addScore(5)
-        msg(`A cheerful little teddy bear with an enormous satchel appears and grabs the diamond spike. 
+        msg(`A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the diamond spike. 
         “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”`)
         game.things.diamondSpike.location = ""
         refresh()

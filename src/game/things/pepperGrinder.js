@@ -7,8 +7,8 @@ Game.things.pepperGrinder = {
         game.things.pepperGrinder.location = ''
         msg(`You grab the pepper grinder off the floor.`)
         addScore(3)
-        msg(`A very helpful-looking crab scuttles up next to your keyboard. “Hey!” says the crab, “You can now 
-        press G to grind clouds of pepper into the air!”`)
+        msg(`A very helpful-looking crab 🦀 scuttles up next to your keyboard. ⌨️ “Hey!” says the crab 🦀, “You can now 
+        press ~g to grind clouds of pepper into the air!”`)
         refresh()
     }],
 }

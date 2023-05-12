@@ -28,6 +28,8 @@ window.addEventListener("load", () => {
       key = 'space'
     } else if (key === '#') {
       key = 'transcript'
+    } else if (key === '%') {
+      key = 'music'
     } else if (key === '?') {
       key = 'help'
     } else if (key === '$') {
@@ -65,6 +67,19 @@ window.addEventListener("load", () => {
         } else {
           msg(`Transcript mode off.`)
           game.transcript = false
+        }
+      } else if (key === 'music') {
+        if (!game.musicToggle) {
+          game.musicToggle = true
+          msu()
+          msg(`Music on.`)
+        } else {
+          game.musicToggle = false
+          if (game.music) {
+            game.music.pause()
+            game.music = null
+          }
+          msg(`Music off.`)
         }
       }
     }

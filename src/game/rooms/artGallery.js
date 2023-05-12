@@ -7,10 +7,10 @@ Game.rooms.artGallery = () => {
 
   setExitsHeader(["right", "down"])
 
-  cmd('l', [`Taste art gallery`, `You seem to misunderstand what people are saying when they declare the art is “tastefully done.”`])
+  cmd('l', [`taste art gallery`, `You seem to misunderstand what people are saying when they declare the art is “tastefully done.”`])
   cmd('f', ['feel wall', `You're the touchy-feely type, aren't you?`])
 
-  cmd('s', [`Smell art gallery`, `It smells of very old paint.`])
+  cmd('s', [`smell art gallery`, `It smells of very old paint.`])
 
   cmd(
     ["left", "up"],

@@ -4,7 +4,7 @@ Game.rooms.startRoom = () => {
     header(`Forest edge`)
 
     desc(`At the edge of the woods under bright moonlight stands a vast crumbling castle. A winding path
-    meanders ahead to the front door. Near the path is a large friendly sign.`)
+    meanders ahead to the front door. Near the path is a large friendly sign 🪧.`)
 
 
     setExitsHeader(['up'])

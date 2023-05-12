@@ -1,7 +1,7 @@
 
 
 function msu() {
-    if (!game.music) {
+    if (!game.music && game.musicToggle) {
         const trackList = [
             'First Snow',
             'Dreams',
@@ -13,7 +13,6 @@ function msu() {
         game.track = 0
         game.music = new Audio(`HoliznaCC0 - ${trackList[game.track]}.mp3`)
         const playNextTrack = () => {
-            console.log(trackList[game.track]);
             game.track += 1
             if (game.track === trackList.length) {
                 game.track = 0

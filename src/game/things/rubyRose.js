@@ -21,7 +21,7 @@ Game.things.scorchedRubyRose = {
     inv: ['take exquisite ruby rose', () => {
         msg(`Taken.`)
         addScore(5)
-        msg(`A cheerful little teddy bear with an enormous satchel appears and grabs the exquisite ruby rose. 
+        msg(`A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the exquisite ruby rose. 
         “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”`)
         game.things.scorchedRubyRose.location = ""
         refresh()

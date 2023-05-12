@@ -9,7 +9,7 @@ Game.things.dragonEgg = {
         msg(`Taken.`)
         msg(`“Oh, thanks for cleaning my litter box,” says the dragon. “That's what I get for eating an entire Arby's for lunch.”`)
         addScore(5)
-        msg(`A cheerful little teddy bear with an enormous satchel appears and grabs the gold “egg.”  “Good job!”
+        msg(`A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the gold “egg.”  “Good job!”
         he says with <s>revulsion</s> a smile. “I'll just drop this treasure into your safe deposit box for you.”`)
         game.things.dragonEgg.location = ""
         refresh()

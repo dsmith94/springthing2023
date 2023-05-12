@@ -4,7 +4,7 @@ Game.rooms.mazeEntrance = () => {
 
   desc(`Just ahead is the entrance to a maze of twisty little passages, all alike.`)
 
-  setExitsHeader(["down", "up", "left"])
+  setExitsHeader(["down", "up", "left", "right"])
 
   cmd(
     ["right"],
@@ -15,7 +15,7 @@ Game.rooms.mazeEntrance = () => {
   )
 
   cmd('s', ['sniff air', `It smells better than that other maze in that last castle.`])
-  cmd('l', ['lick maze', `You'll lick this maze yet!`])
+  cmd('l', ['lick maze (with my tongue)', `You'll lick this maze yet!`])
   cmd('f', ['feel wall', `You're the touchy-feely type, aren't you?`])
   cmd("h",  [`hint`, `Turning the map will help you solve the maze.`])
   cmd('b', [`yell`, () => {
@@ -28,13 +28,14 @@ Game.rooms.mazeEntrance = () => {
     if (game.things.mazeMap.rotated) {
         go('mazeEnd')
     } else {
-        msg(`You enter the maze but get all turned around. It's almost like that map was backwards.`)
+        msg(`You enter the maze but get all turned around. It's almost like that map 🗺️ was backwards.`)
         msg(`Soon you find yourself right back at the start again.`)
     }
   }])
 
   cmd("down", [`return to sculpture gallery`, () => go("sculptureGallery")])
   cmd("left", [`enter the drafty room`, () => go("draftyRoom")])
+  cmd("right", [`enter the crocodile dentist office`, () => go("crocodileDentistOffice")])
 }
 
 

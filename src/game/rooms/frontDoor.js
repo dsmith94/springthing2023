@@ -10,14 +10,16 @@ Game.rooms.frontDoor = () => {
 
   setExitsHeader(["up", "down"])
 
-  cmd('l', [`Taste wall`, `The castle walls taste of old stone and spiders.`])
+  cmd('l', [`taste wall`, `The castle walls taste of old stone and spiders.`])
   cmd('f', ['feel wall', `It feels cold.`])
   cmd('b', [`yell`, () => {
     msg(`AAAAAOOOOUUUIIIIEEE!!`)
     msg(`Nothing happens.`)
   }])
 
-  cmd('s', [`Smell castle`, `You can smell danger.`])
+  cmd('s', [`smell castle`, `You can smell danger.`])
+
+  cmd('p', [`push doorbell repeatedly`, `“Cut that out,” says the gargoyle, wholly annoyed.`])
 
   cmd(
     ["left", "right"],

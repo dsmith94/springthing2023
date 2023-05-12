@@ -4,8 +4,8 @@ function ranking() {
     const maxScore = 65
 
     const list = [
-        'clueless tourist',
-        'inept explorer',
+        'inept thief',
+        'lost explorer',
         'semi-competent burglar',
         'skilled treasure-hunter',
         'master adventurer',

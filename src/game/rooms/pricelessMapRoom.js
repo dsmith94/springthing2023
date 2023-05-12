@@ -1,7 +1,7 @@
 
 
 Game.rooms.pricelessMapRoom = () => {
-  header(`Priceless Map Room`)
+  header(`Priceless Map 🗺️ Room`)
 
   desc(`You are at the top of a tall tower. A lonely stair descends back down to the hallway.`)
 

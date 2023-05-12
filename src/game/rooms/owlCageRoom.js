@@ -26,8 +26,8 @@ Game.rooms.owlCageRoom = () => {
     }
   }])
 
-  cmd('s', ['smell owl cage room', `It smells of sadness, like a trapped animal yearning for freedom.`])
-  cmd('l', ['lick owl cage room', `It tastes of tears and old owl feathers.`])
+  cmd('s', ['smell owl 🦉 cage room', `It smells of sadness, like a trapped animal yearning for freedom.`])
+  cmd('l', ['lick owl 🦉 cage room', `It tastes of tears and old owl feathers.`])
   cmd('f', ['feel wall', `You're the touchy-feely type, aren't you?`])
 
   cmd('p', ['push the window lever', () => {

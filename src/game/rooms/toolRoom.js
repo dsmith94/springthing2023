@@ -6,9 +6,9 @@ Game.rooms.toolRoom = () => {
 
   setExitsHeader(["right"])
 
-  cmd('l', [`Taste wall`, `The tool room does not taste special.`])
+  cmd('l', [`taste wall`, `The tool room does not taste special.`])
 
-  cmd('s', [`Smell tool room`, `It smells like stale gasoline.`])
+  cmd('s', [`smell tool room`, `It smells like stale gasoline.`])
   cmd('f', ['feel wall', `You're the touchy-feely type, aren't you?`])
 
   cmd(

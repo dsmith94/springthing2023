@@ -1,11 +1,11 @@
 
 Game.things.doorbell = {
     location: 'frontDoor',
-    desc: `Next to the door is a cheery little doorbell.`,
-    x: ['examine doorbell', `It has a gentle yellow glow.`],
+    desc: `Next to the door is a cheery little doorbell 🔔.`,
+    x: ['examine cheery doorbell 🔔', `It has a gentle yellow glow.`],
     'i up': ['enter castle', `You should open the door somehow first.`],
     h: ['give me a hint will you', `Don't eat the ice cream.`],
-    p: ['push doorbell', () => {
+    p: ['I want to ring the doorbell 🔔', () => {
 
         msg(`A merry chime rings from inside the castle.`)
         msg(`Moments later, a staticky speaker comes to life inside the 

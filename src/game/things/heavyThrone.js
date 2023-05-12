@@ -9,7 +9,7 @@ Game.things.heavyThrone = {
         msg(`Your lumbar complains about you stealing the ridiculously heavy throne!`)
         msg(`Taken.`)
         addScore(5)
-        msg(`A cheerful little teddy bear with an enormous satchel appears and grabs the throne with considerable effort. 
+        msg(`A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the throne with considerable effort. 
         “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”`)
         game.things.heavyThrone.location = ""
         refresh()

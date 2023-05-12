@@ -12,7 +12,7 @@ Game.rooms.dragonRoost = () => {
   cmd(
     ["left", "right", "down"],
     [
-      `walk into cave wall`,
+      `walk into cave wall please`,
       `You resist the urge to smack straight into a cave wall.`,
     ]
   )
@@ -22,7 +22,13 @@ Game.rooms.dragonRoost = () => {
     msg(`“Nice lungs,” says the dragon.`)
   }])
 
-  cmd('l', ['lick dragon', `Even if that were possible, why?`])
+
+  cmd('v', [`converse with the very large dragon`, () => {
+    msg(`“I enjoy chatting with the thieves who break into this castle,” says the dragon.
+    “Of course, no-one likes a burglar, but I sometimes find them yummy.”`)
+  }])
+
+  cmd('l', ['lick dragon (with my tongue)', `Even if that were possible, why?`])
   cmd('s', ['sniff air', `The air smells of sulfur and dragon-breath.`])
   cmd('f', ['feel dragon', `It's like petting a ginormous gecko.`])
   cmd('c', ['climb up the chain', () => go('draftyRoom')])
@@ -33,7 +39,7 @@ Game.rooms.dragonRoost = () => {
     cmd('g', [`grind pepper`, () => {
         msg(`The smell of pepper mingles with the smoke.`)
         msg(`“Ahhh!” cries the dragon, “I'm allergic to pepper!” She holds her long snout. “Ah... AHHHH...”`)
-        kill(`The cavern is instantly engulfed in flames!`, `You have been incinerated`, 'dragonRoost')
+        kill(`The cavern is instantly engulfed in flames!`, `You have become ionized gas 🔥`, 'dragonRoost')
     }])
   }
   cmd('a', [`attack the enormous dragon`, () => kill(`Well, you can guess how that worked out.`, `You have been smooshed`, 'dragonCave')])

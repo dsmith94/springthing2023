@@ -42,10 +42,23 @@ function printPlayerHelp() {
         </tr>
         <tr>
         <td>
+        Obvious room exits are displayed next to the 🧭
+        </td>
+        <td>
+        Your score is displayed next to the 🏆
+        </td>
+        </tr>
+        <tr>
+        <td>
         ~h For a hint about the current room
         </td>
         <td>
         ~# Toggle transcript on or off
+        </td>
+        </tr>
+        <tr>
+        <td>
+        ~% Toggle music
         </td>
         </tr>
         <tr>

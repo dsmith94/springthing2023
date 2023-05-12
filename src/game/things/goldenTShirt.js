@@ -6,7 +6,7 @@ Game.things.goldenShirt = {
     inv: ['take golden shirt', () => {
         msg(`Taken.`)
         addScore(5)
-        msg(`A cheerful little teddy bear with an enormous satchel appears and grabs the golden T-shirt. 
+        msg(`A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the golden T-shirt. 
         “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”`)
         game.things.goldenShirt.location = ""
         refresh()

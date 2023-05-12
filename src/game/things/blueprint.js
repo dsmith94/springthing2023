@@ -24,7 +24,7 @@ Game.things.blueprint = {
             back exactly to normal.`)
         }
     }],
-    inv: ['take blueprint', () => {
+    inv: ['foolishly take blueprint, utterly disregarding the rules of time travel', () => {
         msg(`Taken.`)
         kill(`FOOM! As you steal the blueprints for the castle, you create a big swirling
         time paradox that sucks you in. Whoops!`, `You have been erased from existence`, 'blueprintDesk')

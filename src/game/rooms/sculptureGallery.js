@@ -13,10 +13,12 @@ Game.rooms.sculptureGallery = () => {
             the whole room was somehow turned around, you would have gone deeper into the castle instead of into this pit.`,
             `You have fallen and you can't get up`, 'sculptureGallery')
         ])
+        cmd('x', [`examine statues`, `They appear to be pointing to a blank wall. It feels like there should be a door there.`])
     } else {
         desc(`Several beautiful masterpieces of marble stand here, pointing to a door on an otherwise blank wall.`)
         setExitsHeader(["up", "down", "right"])
         cmd(["right", 'i'], [`enter door`, () => go("secretGallery")])
+        cmd('x', [`examine statues`, `They appear to be pointing to a door.`])
     }
     
     cmd('h', ['give me a hint will you', `If only there was a way to turn this whole castle around, so the door was facing the other way...`])

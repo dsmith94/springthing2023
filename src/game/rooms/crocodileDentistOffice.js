@@ -31,7 +31,7 @@ Game.rooms.crocodileDentistOffice = () => {
     ]
     )
     
-    cmd("left", [`exit crocodile dentist office`, () => go("throneRoom")])
+    cmd("left", [`exit crocodile dentist office`, () => go("mazeEntrance")])
     cmd("right", [`exit crocodile dentist office`, () => kill(`The crocodile dentist devours you as you attempt to pass! As he eats you, you decide he could definitely improve his flossing technique.`, `Never smile at a crocodile`, 'crocodileDentistOffice')])
   }
   

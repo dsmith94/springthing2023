@@ -29,7 +29,15 @@ Game.rooms.mazeEntrance = () => {
         go('mazeEnd')
     } else {
         msg(`You enter the maze but get all turned around. It's almost like that map was backwards.`)
-        msg(`Soon you find yourself right back at the start again.`)
+        msg(`Soon you find yourself elsewhere in the castle...`)
+        const nextRoom = pick([
+          'diningHall',
+          'crocodileDentistOffice',
+          'clamRoom',
+          'sharpRoom',
+          'artGallery',
+        ])
+        go(nextRoom)
     }
   }])
 

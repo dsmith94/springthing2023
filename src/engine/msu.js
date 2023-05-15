@@ -9,7 +9,9 @@ function msu() {
             'Plants',
             'Ramen',
             'Endless Grind',
-            'Day Trips'
+            'City Lights',
+            'Winter Blues',
+            'Day Trips',
         ]
         game.track = 0
         game.music = new Audio(`HoliznaCC0 - ${trackList[game.track]}.mp3`)

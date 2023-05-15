@@ -15,7 +15,7 @@ Game.rooms.pastGarden = () => {
 
   cmd('x', ['examine clock', `In faded letters beneath the clock you can read the words: “The Garden of Time.”`])
 
-  cmd('y', ['push lever', `The lever is already pulled back.`])
+  cmd('y', ['pull lever', `The lever is already pulled back.`])
   cmd('s', ['sniff air', `Smells like early morning dew.`])
   cmd('l', ['lick ground', `It tastes very much like dirt from your own time.`])
   cmd('f', ['feel ground', `You press your hands into the dirt.`])

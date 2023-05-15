@@ -28,6 +28,7 @@ Game.items.chowderSign = {
                     if (game.location === 'smellyRoom') {
                         msg(`A great and terrible roar echoes from down the stairs, as if a huge and murderous beast had been 
                         slaughtered by the participants of a chowder festival.`)
+                        game.items.chowderSign.desc = `A festive sign is posted here. It reads: “Castle Chowder Festival — Down Stairs.” It appears to be very stuck to the wall.`
                         game.things.chowderFestival.location = 'clamRoom'
                         game.things.ferociousClam.location = ''
                         game.things.clamPearl.location = 'clamRoom'

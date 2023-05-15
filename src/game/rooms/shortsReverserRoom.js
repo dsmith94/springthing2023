@@ -14,6 +14,7 @@ Game.rooms.shortsReverserRoom = () => {
       `BONK! Thanks, that was helpful.`,
     ]
   )
+  cmd(['x', 'r'], ['read button', `The button says “Shorts Reverser” on it.`])
   cmd('s', ['sniff air', `It smells vaguely of shorts, only backwards.`])
   cmd('f', ['feel button', `The button feels pretty good.`])
   cmd('l', ['lick button', `They cover it in yucky stuff to keep kids from eating it.`])

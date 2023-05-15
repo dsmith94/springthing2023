@@ -14,11 +14,19 @@ Game.rooms.sculptureGallery = () => {
             `You have fallen and you can't get up`, 'sculptureGallery')
         ])
         cmd('x', [`examine statues`, `They appear to be pointing to a blank wall. It feels like there should be a door there.`])
+        cmd("left", [
+            `plant my nose firmly into wall`,
+            `Your face smarts for a moment after walking straight into the stone wall. Still, you can't help but feel a door should be here.`,
+        ])
     } else {
         desc(`Several beautiful masterpieces of marble stand here, pointing to a door on an otherwise blank wall.`)
         setExitsHeader(["up", "down", "right"])
         cmd(["right", 'i'], [`enter door`, () => go("secretGallery")])
         cmd('x', [`examine statues`, `They appear to be pointing to a door.`])
+        cmd("left", [
+            `plant my nose firmly into wall`,
+            `Your face smarts for a moment after walking straight into the stone wall.`,
+        ])
     }
     
     cmd('h', ['give me a hint will you', `If only there was a way to turn this whole castle around, so the door was facing the other way...`])
@@ -29,10 +37,6 @@ Game.rooms.sculptureGallery = () => {
     
     cmd('s', [`Smell sculptures`, `It smells of old statues.`])
     
-    cmd("left", [
-        `plant my nose firmly into wall`,
-        `Your face smarts for a moment after walking straight into the stone wall. Still, you can't help but feel a door should be here.`,
-    ])
     
     
     cmd("down", [`leave gallery`, () => go("griffinRoom")])

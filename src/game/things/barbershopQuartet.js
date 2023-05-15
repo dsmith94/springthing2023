@@ -1,6 +1,6 @@
 
 Game.things.barbershopQuartet = {
-    desc: `A scary-looking sign 🪧 is affixed to the wall.`,
+    desc: `A scary-looking sign is affixed to the wall.`,
     location: 'mirrorsHall',
     s: [`sniff sniff sniff`, `You detect the scent of aftershave.`],
     x: [`examine murderous barbershop quartet`, `They're invisible. Didn't you read the sign?`],
@@ -18,10 +18,10 @@ Game.things.barbershopQuartet = {
         game.things.barbershopQuartet.location = ''
         refresh()
     }],
-    r: ['read the scary-looking sign 🪧', () => {
-        msg(`The scary-looking sign 🪧 reads:`)
+    r: ['read the scary-looking sign', () => {
+        msg(`The scary-looking sign reads:`)
         msg(`Beware, adventurers! This room is the lair of a murderous invisible barbershop quartet.
-        Leave before they shave you from existence!`)
+        Leave before they permanently coiffure you from existence!`)
     }]
 }
 

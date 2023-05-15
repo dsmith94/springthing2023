@@ -30,7 +30,7 @@ An incredibly valuable golden throne is here! It isn't nailed down so it must be
 Your lumbar complains about you stealing the ridiculously heavy throne!
 Taken.
 [Your score has gone up 5 points.]
-A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the throne with considerable effort. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
+A cheerful little teddy bear with an enormous satchel appears and grabs the throne with considerable effort. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
 > exit throne room (up key)
 Art Gallery
 Before being picked over by vandals, this was a beautiful art gallery. Sadly, there is no chance for you to be a vandal; all the paintings have been stolen.
@@ -65,7 +65,7 @@ Hanging on the wall is a priceless antique map, valuable beyond compare!
 > take priceless map (period key)
 Taken.
 [Your score has gone up 5 points.]
-A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the priceless map of New Jersey. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
+A cheerful little teddy bear with an enormous satchel appears and grabs the priceless map of New Jersey. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
 > descend stairs (down key)
 Long Hallway (middle part)
 You're in a long corridor, in the middle part.
@@ -88,7 +88,7 @@ Fixed in place next to an open window is a large imposing cannon with a draw-str
 > pull draw-string (y key)
 BOOM! The cannon thunders and a HUGE cannonball fires into the air!
 The cannonball sails through the window of the next tower over, followed by a loud thundering CRASH!
-Moments later a cheerful owl flaps into the room. “Thank you, kind adventurer!” hoots the owl. “Because of you, I am free of that loathsome cage.” He drops a whistle into your open palm. “In this castle are many diabolical traps and puzzles. Should you encounter a riddle beyond your comprehension, blow this whistle and I will come assist. Farewell!”
+Moments later an overjoyed owl flaps into the room. “Thank you, kind adventurer!” hoots the owl. “Because of you, I am free of that loathsome cage.” He drops a whistle into your open palm. “In this castle are many diabolical traps and puzzles. Should you encounter a riddle beyond your comprehension, blow this whistle and I will come assist. Farewell!”
 He flaps off into the night.
 [You can now press 'w' to blow the whistle.]
 [Your score has gone up 3 points.]
@@ -110,12 +110,12 @@ You are being attacked by a FEROCIOUS CLAM!
 > descend deeper into the dungeon (down key)
 You dodge the attack of the fearsome clam and run down the stairs, narrowly escaping with your life!
 Dragon Cave
-In the shadows is a narrow opening lit by a hot orange glow. Above the opening is very ominous-looking sign 🪧 in gothic lettering.
+In the shadows is a narrow opening lit by a hot orange glow. Above the opening is very ominous-looking sign in gothic lettering.
 Set on the cavern floor is a somewhat charred pepper grinder.
 > take the pepper grinder (period key)
 You grab the pepper grinder off the floor.
 [Your score has gone up 3 points.]
-A very helpful-looking crab scuttles up next to your keyboard. “Hey!” says the crab, “You can now press G to grind clouds of pepper into the air!”
+A very helpful-looking crabscuttles up next to your keyboard. “Hey!” says the crab, “You can now press G to grind clouds of pepper into the air!”
 > enter the roost (down key)
 Dragon Roost
 A vast underground cavern is lit by the gentle orange breath of a massive dragon, big as a football field. She seems mostly uninterested in you. A long chain descends from the chamber above.
@@ -125,7 +125,7 @@ It occurs to you as you pick it up that its not precisely shaped like an egg.
 Taken.
 “Oh, thanks for cleaning my litter box,” says the dragon. “That's what I get for eating an entire Arby's for lunch.”
 [Your score has gone up 5 points.]
-A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the gold “egg.” “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
+A cheerful little teddy bear with an enormous satchel appears and grabs the gold “egg.” “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
 > climb up the chain (c key)
 Drafty Room
 The air blows swiftly here to a wide opening in the floor. A long chain descends into the hole to a dark smoky chamber below. A narrow window overlooks a charming rose garden far below the castle wall.
@@ -143,7 +143,7 @@ Lying on a pedestal is an ordinary T-shirt, made of solid gold. I guess it's not
 > take golden shirt (period key)
 Taken.
 [Your score has gone up 5 points.]
-A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the golden T-shirt. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
+A cheerful little teddy bear with an enormous satchel appears and grabs the golden T-shirt. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
 > enter fiendish maze (down key)
 Maze Entrance
 Just ahead is the entrance to a maze of twisty little passages, all alike.
@@ -166,7 +166,7 @@ Near the path is a large spike of pure diamond. It looks so sharp you might kill
 You very carefully remove the diamond spike.
 Taken.
 [Your score has gone up 5 points.]
-A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the diamond spike. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
+A cheerful little teddy bear with an enormous satchel appears and grabs the diamond spike. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
 > navigate maze of deadly spikes (up key)
 Rose Garden
 A thick bramble of roses hedges up against the castle wall, which looms dark in the thin moonlight. On the wall is a valve next to a large exhaust pipe.
@@ -178,7 +178,7 @@ Tool Shed
 You are in a dank, musty tool shed.
 A Phillips head screwdriver lies here at your feet.
 > take Phillips head screwdriver (period key)
-You grab the Phillips head screwdriver, and while doing so, you slip and STAB yourself with it! As the darkness closes in, you notice the writing on the sign 🪧 seems to have changed.
+You grab the Phillips head screwdriver, and while doing so, you slip and STAB yourself with it! As the darkness closes in, you notice the writing on the sign seems to have changed.
 You have picked up a semi-sharp object and died
 Don't worry, that wasn't the worst game I've ever seen. Maybe the second worst.
 So far, you've collected 5 treasures. You've scored 34 out of 59, earning you the rank of semi-competent burglar.
@@ -190,7 +190,7 @@ Tool Shed
 You are in a dank, musty tool shed.
 A Phillips head screwdriver lies here at your feet.
 > take Phillips head screwdriver (period key)
-You grab the Phillips head screwdriver, and while doing so, you slip and STAB yourself with it! As the darkness closes in, you notice the writing on the sign 🪧 seems to have changed.
+You grab the Phillips head screwdriver, and while doing so, you slip and STAB yourself with it! As the darkness closes in, you notice the writing on the sign seems to have changed.
 You have picked up a semi-sharp object and died
 Well, that was rich.
 So far, you've collected 5 treasures. You've scored 34 out of 59, earning you the rank of semi-competent burglar.
@@ -202,7 +202,7 @@ Tool Shed
 You are in a dank, musty tool shed.
 A Phillips head screwdriver lies here at your feet.
 > take Phillips head screwdriver (period key)
-You grab the Phillips head screwdriver, and while doing so, you slip and STAB yourself with it! As the darkness closes in, you notice the writing on the sign 🪧 seems to have changed.
+You grab the Phillips head screwdriver, and while doing so, you slip and STAB yourself with it! As the darkness closes in, you notice the writing on the sign seems to have changed.
 You have picked up a semi-sharp object and died
 Are you new to adventure games? Wait, don't answer that.
 So far, you've collected 5 treasures. You've scored 34 out of 59, earning you the rank of semi-competent burglar.
@@ -271,7 +271,7 @@ An exquisite rose made of solid ruby sits in a pile of ashes.
 > take exquisite ruby rose (period key)
 Taken.
 [Your score has gone up 5 points.]
-A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the exquisite ruby rose. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
+A cheerful little teddy bear with an enormous satchel appears and grabs the exquisite ruby rose. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
 > follow path (right key)
 Garden of Time
 Stepping stones form a little trail between a fierce bramble of roses. Rising above the thorns is a great bronze clock with a long gleaming lever on one side.
@@ -320,7 +320,7 @@ Lying neglected here is a priceless platinum statue!
 > take platinum statue (period key)
 Taken.
 [Your score has gone up 5 points.]
-A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the platinum statue. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
+A cheerful little teddy bear with an enormous satchel appears and grabs the platinum statue. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
 > exit gallery (right key)
 Sculpture Gallery
 Several beautiful masterpieces of marble stand here, pointing to a door on an otherwise blank wall.
@@ -389,7 +389,7 @@ You can't help but notice the griffin appears to have left something behind.
 > take rare griffin feather (period key)
 Taken.
 [Your score has gone up 5 points.]
-A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the rare griffin. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
+A cheerful little teddy bear with an enormous satchel appears and grabs the rare griffin. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
 > leave the griffin room (left key)
 Entry Hall
 A formerly grand entry hall stands before you, lined by cracked marble pillars and with passageways in all directions.
@@ -403,7 +403,7 @@ Set into the wall is a platinum jeweled screw, on which likely hung a priceless 
 > remove jeweled screw from wall (period key)
 The screwdriver easily gets the platinum jeweled screw out of the wall, though the screwdriver itself breaks in the process. You discard the broken tool.
 [Your score has gone up 5 points.]
-A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the platinum jeweled screw. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
+A cheerful little teddy bear with an enormous satchel appears and grabs the platinum jeweled screw. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
 > exit art gallery (right key)
 Smelly Room
 It's unclear as to why, but this room smells AWFUL. A dark stair descends into the dungeon.
@@ -414,7 +414,7 @@ You are being attacked by a FEROCIOUS CLAM!
 > descend deeper into the dungeon (down key)
 You dodge the attack of the fearsome clam and run down the stairs, narrowly escaping with your life!
 Dragon Cave
-In the shadows is a narrow opening lit by a hot orange glow. Above the opening is very ominous-looking sign 🪧 in gothic lettering.
+In the shadows is a narrow opening lit by a hot orange glow. Above the opening is very ominous-looking sign in gothic lettering.
 > enter the roost (down key)
 Dragon Roost
 A vast underground cavern is lit by the gentle orange breath of a massive dragon, big as a football field. She seems mostly uninterested in you. A long chain descends from the chamber above.
@@ -425,8 +425,8 @@ Posted above the hole is a very serious-looking sign.
 > enter scullery (left key)
 Scullery
 You're in a filthy old scullery. A narrow stair leads downwards to the dining hall.
-A festive sign 🪧 is posted here. It reads: “Castle Chowder Festival — Down Stairs.” It appears to be a bit loose on the wall.
-> remove the festive sign 🪧 from the wall and take it (period key)
+A festive sign is posted here. It reads: “Castle Chowder Festival — Down Stairs.” It appears to be a bit loose on the wall.
+> remove the festive sign from the wall and take it (period key)
 Taken.
 It sounds like they're packing up that festival downstairs to go somewhere else.
 > go through the narrow door (right key)
@@ -464,7 +464,7 @@ You're carrying a festive sign.
 Smelly Room
 It's unclear as to why, but this room smells AWFUL. A dark stair descends into the dungeon.
 You're carrying a festive sign.
-> post the festive sign 🪧 (period key)
+> post the festive sign (period key)
 Dropped.
 A great and terrible roar echoes from down the stairs, as if a huge and murderous beast had been slaughtered by the participants of a chowder festival.
 > descend dark stairs (down key)
@@ -475,6 +475,6 @@ Sitting unattended here is an perfect pearl, the kind made inside of giant kille
 > take clam pearl (period key)
 Taken.
 [Your score has gone up 5 points.]
-A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the clam pearl. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
-“Well done!” cries another little teddy bear 🧸 with a disproportionally huge mallet behind his back. “I've got your prize right here!”
+A cheerful little teddy bear with an enormous satchel appears and grabs the clam pearl. “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”
+“Well done!” cries another little teddy bear with a disproportionally huge mallet behind his back. “I've got your prize right here!”
 You've Won!

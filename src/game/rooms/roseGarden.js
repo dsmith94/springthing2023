@@ -4,7 +4,7 @@ Game.rooms.roseGarden = () => {
 
   const opened = (game.dragonValve) ? 'open' : 'shut';
 
-  desc(`A thick bramble of roses 🌹 hedges up against the castle wall, which looms dark in the thin moonlight.
+  desc(`A thick bramble of roses hedges up against the castle wall, which looms dark in the thin moonlight.
   On the wall is a valve next to a large exhaust pipe, which is ${opened}.`)
 
   setExitsHeader(["left", "down", "right"])
@@ -12,7 +12,7 @@ Game.rooms.roseGarden = () => {
   cmd(
     ["up"],
     [
-      `walk into rose 🌹 bush`,
+      `walk into rose bush`,
       `A few cuts from the thorns and you decide to take a different course of action.`,
     ]
   )

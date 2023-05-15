@@ -48,12 +48,12 @@ Game.rooms.hallTwo = () => {
 Game.rooms.hallThree = () => {
   header(`Long Hallway (far end)`)
 
-  desc(`You're in a long corridor, on the far end. On the wall is a large impressive button 🔘.`)
+  desc(`You're in a long corridor, on the far end. On the wall is a large impressive button.`)
 
   setExitsHeader(["left", "up"])
   cmd('s', [`Smell hallway`, `Ah, the fine aroma of castle corridors.`])
   cmd('l', ['lick hallway', `It doesn't taste all that special.`])
-  cmd('f', ['feel large button 🔘', `It feels like it does something quite important.`])
+  cmd('f', ['feel large button', `It feels like it does something quite important.`])
 
   const flipDoorsRoutine = () => {
     const doors = [
@@ -80,9 +80,9 @@ Game.rooms.hallThree = () => {
     ]
   )
 
-  cmd('h', ['give me a hint will you', `It would appear that this button 🔘 literally moves the towers around in this hallway.`])
+  cmd('h', ['give me a hint will you', `It would appear that this button literally moves the towers around in this hallway.`])
 
-  cmd('p', ['go ahead and press the large impressive button 🔘', () => {
+  cmd('p', ['go ahead and press the large impressive button', () => {
     msg(`The doors on the hallway behind you flip in the air like cherries on a slot machine. In a few seconds, they 
     land flat on the wall, now in a shuffled order.`)
     flipDoorsRoutine()

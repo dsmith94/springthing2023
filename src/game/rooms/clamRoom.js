@@ -8,6 +8,18 @@ Game.rooms.clamRoom = () => {
   setExitsHeader(["up", "down"])
   cmd('s', ['smell air', `It smells like an enormous clam has lived in here for years-so, pretty much like Skippers.`])
   
+
+  if (game.things.ferociousClam.location === 'clamRoom') {
+    if (game.whistle) {
+      cmd('w', ['blow whistle', () => {
+        msg(`The owl appears, sees the fearsome clam, and flaps away terrified!`)
+      }])
+    }
+    if (game.pepper) {
+        cmd('g', [`grind pepper`, `The clam is now better seasoned but no less ferocious.`])
+    }
+  }
+
   cmd(
     ["left", "right"],
     [

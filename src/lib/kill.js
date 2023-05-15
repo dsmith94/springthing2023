@@ -24,7 +24,9 @@ function kill(text, epitaph, location) {
     msg(`Would you like to try again?`)
     msg(`Press ~y to try again or ~n to quit.`, 'sub')
 
-    cmd('help', [`help`, `Press ~y to try again or ~n to quit.`])
+    cmd('help', [`help`, () => {
+        msg(`Press ~y to try again or ~n to quit.`, 'sub')
+    }])
     
     cmd('y', [`yes`, () => {
 

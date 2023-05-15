@@ -10,7 +10,8 @@ function printPlayerHelp() {
         whistleMsg = `<td>~w To blow the whistle</td>`
     }
     msg(`
-        Steal 10 Treasures to Win This Game is a one-letter parser game. Each command is accomplished by pressing a single key on the keyboard.
+        Steal 10 Treasures to Win This Game is a one-letter parser game. Each command is
+        accomplished by pressing a single key on the keyboard, then pressing the Enter key.
         <table class="help">
         <tr>
         <td>
@@ -22,10 +23,18 @@ function printPlayerHelp() {
         </tr>
         <tr>
         <td>
-        ~x Examine ~r Read ~s Smell ~l Lick ~f Feel 
+        ~x Examine ~r Read
         </td>
         <td>
-        ~p Push ~y Pull ~t Turn ~b Yell ~a Attack
+        ~p Push ~y Pull
+        </td>
+        </tr>
+        <tr>
+        <td>
+        ~s Smell ~l Lick ~f Feel 
+        </td>
+        <td>
+        ~t Turn ~b Yell ~a Attack
         </td>
         </tr>
         <tr>
@@ -53,15 +62,13 @@ function printPlayerHelp() {
         ~h For a hint about the current room
         </td>
         <td>
-        ~# Toggle transcript on or off
+        ~# Toggle music
         </td>
         </tr>
         <tr>
         <td>
-        ~% Toggle music
+        ~; Credits
         </td>
-        </tr>
-        <tr>
         <td>
         ~q Quit the game
         </td>

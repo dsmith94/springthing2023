@@ -14,7 +14,7 @@ Game.rooms.sharpRoom = () => {
     ]
   )
 
-  cmd('s', [`Smell spikes`, `It smells like the kind of place where a Hollywood archaeologist would die.`])
+  cmd('s', [`Smell spikes`, `It smells like the kind of place where an archaeologist in a movie would die.`])
   cmd('l', ['lick spikes', `You don't need a tongue piercing.`])
   cmd('f', ['feel wall', `Ouch! That's sharp!`])
   cmd("up", [`navigate maze of deadly spikes`, () => go("mirrorsHall")])

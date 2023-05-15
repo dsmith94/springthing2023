@@ -28,7 +28,7 @@ Game.rooms.mazeEntrance = () => {
     if (game.things.mazeMap.rotated) {
         go('mazeEnd')
     } else {
-        msg(`You enter the maze but get all turned around. It's almost like that map 🗺️ was backwards.`)
+        msg(`You enter the maze but get all turned around. It's almost like that map was backwards.`)
         msg(`Soon you find yourself right back at the start again.`)
     }
   }])

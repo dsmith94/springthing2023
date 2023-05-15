@@ -3,6 +3,7 @@
 function msu() {
     if (!game.music && game.musicToggle) {
         const trackList = [
+            'Pretty Little Lies',
             'First Snow',
             'Dreams',
             'Plants',

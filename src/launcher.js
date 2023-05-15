@@ -7,17 +7,46 @@ const resetGame = () => {
   setItems()
   intro()
   go('startRoom')
+  addCursor()
 }
 
 const cleanUpKey = (key) => {
   if (key === 'inv') {
     return 'period'
+  } else if (key === 'help') {
+    return '?'
+  } else if (key === 'score') {
+    return '$'
+  } else if (key === 'credits') {
+    return ';'
+  } else if (key === 'music') {
+    return '#'
   } else {
     return key
   }
 }
 
+
+const performMusicToggle = () => {
+  if (!game.musicToggle) {
+    game.musicToggle = true
+    msu()
+    msg(`Music on.`)
+  } else {
+    game.musicToggle = false
+    if (game.music) {
+      game.music.pause()
+      game.music = null
+    }
+    msg(`Music off.`)
+  }
+}
+
+
 window.addEventListener("load", () => {
+  fullCommand = null
+  response = null
+  cmdKey = null
   resetGame()
   window.addEventListener('keydown', ev => {
     ev.preventDefault()
@@ -27,13 +56,22 @@ window.addEventListener("load", () => {
     if (key === ' ') {
       key = 'space'
     } else if (key === '#') {
-      key = 'transcript'
-    } else if (key === '%') {
       key = 'music'
     } else if (key === '?') {
       key = 'help'
     } else if (key === '$') {
       key = 'score'
+    } else if (key === ';') {
+      key = 'credits'
+    } else if (key === 'backspace' || key === 'delete') {
+      if (cmdKey) {
+        key = ''
+        fullCommand = null
+        response = null
+        cmdKey = null
+        remCursor()
+        addCursor()
+      }
     } else if (key === '.') {
       key = 'inv'
     } else if (key === 'arrowleft') {
@@ -44,44 +82,43 @@ window.addEventListener("load", () => {
       key = 'up'
     } else if (key === 'arrowdown') {
       key = 'down'
-    }
+    } 
     if (key) {
-      if (game.commands[key]) {
-        const [fullCommand, response] = game.commands[key]
-        if (game.transcript) {
-          msg(`${fullCommand} (${cleanUpKey(key)} key)`, 'res')
-        } else {
-          msg(`${fullCommand}`, 'res')
+      if (key !== 'enter') {
+        if (key in game.commands) {
+          [fullCommand, response] = game.commands[key]
+          repCursor(fullCommand)
+          cmdKey = key
         }
-        game.turns += 1
-        if (typeof response === 'string') {
+      }
+      if (response && key === 'enter') {
+        remCursor()
+        msg(`<div>> ${fullCommand}</div><div>(${cleanUpKey(cmdKey)} key)</div>`, "res spaced")
+        if (typeof response === "string") {
           msg(response)
         } else {
           response()
         }
+        game.turns += 1
+        addCursor()
         updateHeaderBar()
-      } else if (key === 'transcript') {
-        if (!game.transcript) {
-          game.transcript = true
-          msg(`Transcript mode on.`)
-        } else {
-          msg(`Transcript mode off.`)
-          game.transcript = false
-        }
-      } else if (key === 'music') {
-        if (!game.musicToggle) {
-          game.musicToggle = true
-          msu()
-          msg(`Music on.`)
-        } else {
-          game.musicToggle = false
-          if (game.music) {
-            game.music.pause()
-            game.music = null
-          }
-          msg(`Music off.`)
-        }
+        fullCommand = null
+        response = null
+        cmdKey = null
       }
+    }
+    if (key === 'credits') {
+      fullCommand = 'display credits'
+      response = printCredits
+      cmdKey = ';'
+      repCursor(fullCommand)
+      cmdKey = key
+    } else if (key === 'music') {
+      fullCommand = 'toggle music'
+      response = performMusicToggle
+      cmdKey = '%'
+      repCursor(fullCommand)
+      cmdKey = key
     }
   })
 })

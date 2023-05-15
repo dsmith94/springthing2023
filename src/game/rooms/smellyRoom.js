@@ -29,7 +29,9 @@ Game.rooms.smellyRoom = () => {
         game.commands = {}
         
         msg(`Press ~y to accept the poisonous popsicle, and ~n to refuse.`, 'sub')
-        cmd('help', ['help', `Press ~y to accept the poisonous popsicle, and ~n to refuse.`])
+        cmd('help', ['help', () => {
+          msg(`Press ~y to accept the poisonous popsicle, and ~n to refuse.`, 'sub')
+        }])
         cmd('y', ['say yes to the poisonous popsicle', () => kill(`Hey, what could go wrong?`, `You have absolutely no willpower`, 'smellyRoom')])
         cmd('n', ['no to the poisonous popsicle', () => {
           msg(`“No?” says the pirate, shocked. “As in, NO, you can't resist? Well, here it is!”`)

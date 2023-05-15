@@ -3,7 +3,7 @@ Game.rooms.sculptureGallery = () => {
     header(`Sculpture Gallery`)
     
     if (!game.things.blueprint.turned) {
-        desc(`Several beautiful masterpieces 🗿 of marble stand here, pointing at a blank space of wall.
+        desc(`Several beautiful masterpieces of marble stand here, pointing at a blank space of wall.
         You can't help but feel that they're pointing at a door that isn't there. Opposite the blank 
         wall is a doorway leading into a bottomless pit.`)
         setExitsHeader(["up", "down", "right"])
@@ -14,7 +14,7 @@ Game.rooms.sculptureGallery = () => {
             `You have fallen and you can't get up`, 'sculptureGallery')
         ])
     } else {
-        desc(`Several beautiful masterpieces 🗿 of marble stand here, pointing to a door on an otherwise blank wall.`)
+        desc(`Several beautiful masterpieces of marble stand here, pointing to a door on an otherwise blank wall.`)
         setExitsHeader(["up", "down", "right"])
         cmd(["right", 'i'], [`enter door`, () => go("secretGallery")])
     }

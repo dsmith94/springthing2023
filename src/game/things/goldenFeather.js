@@ -7,7 +7,7 @@ Game.things.griffinFeather = {
         msg(`Taken.`)
         addScore(5)
         game.things.griffinFeather.location = ''
-        msg(`A cheerful little teddy bear 🧸 with an enormous satchel appears and grabs the rare griffin. 
+        msg(`A cheerful little teddy bear with an enormous satchel appears and grabs the rare griffin. 
         “Good job!” he says with a smile. “I'll just drop this treasure into your safe deposit box for you.”`)
         refresh()
         depositTreasure('griffinFeather')

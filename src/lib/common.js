@@ -9,7 +9,9 @@ function createCommonResponses() {
         
         msg(`Are you sure you want to quit? Hit ~y or ~n.`)
         game.commands = {};
-        cmd('help', [`help`, `Please hit ~y or ~n.`])
+        cmd('help', [`help`, () => {
+            msg(`Please hit ~y or ~n.`, 'sub')
+        }])
         cmd('y', ['I am done', () => {
             clear()
             resetGame()
@@ -51,12 +53,12 @@ function createCommonResponses() {
     if (game.whistle) {
         cmd('w', [`blow my whistle`, () => {
             msg(pick([
-                `A shrill tone reverberates in the air.`
-                `The owl 🦉 flies onto your shoulder, looks around, and leaves immediately.`,
-                `The owl 🦉 flies overhead. “No riddles here. See you!” He then flaps away.`,
-                `The owl 🦉 appears. “No riddles here. Why did you blow the whistle?” He than flaps away.`,
-                `The owl 🦉 shows up as prompted, sees nothing of interest, and flaps off.`,
-                `The owl 🦉 flaps overhead, with an annoyed expressions. Seeing nothing of interest, he disappears.`,
+                `A shrill tone reverberates in the air.`,
+                `The owl flies onto your shoulder, looks around, and leaves immediately.`,
+                `The owl flies overhead. “No riddles here. See you!” He then flaps away.`,
+                `The owl appears. “No riddles here. Why did you blow the whistle?” He than flaps away.`,
+                `The owl shows up as prompted, sees nothing of interest, and flaps off.`,
+                `The owl flaps overhead, with an annoyed expressions. Seeing nothing of interest, he disappears.`,
             ]))
         }])
     }

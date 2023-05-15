@@ -9,7 +9,7 @@ Game.things.dragonSign = {
         msg(`lilacs`)
         msg(`hay`)
     }],
-    t: ['take sign', `The sign 🪧 is fixed in place.`]
+    t: ['take sign', `The sign is fixed in place.`]
 }
 
 

@@ -3,13 +3,13 @@
 Game.items.chowderSign = {
     shortDesc: `festive sign`,
     initialLocation: 'scullery',
-    desc: `A festive sign 🪧 is posted here. It reads: “Castle Chowder Festival — Down Stairs.” It appears to be a bit loose on the wall.`,
-    h: ['give me a hint will you', `This sign 🪧 isn't nailed down.`],
+    desc: `A festive sign is posted here. It reads: “Castle Chowder Festival — Down Stairs.” It appears to be a bit loose on the wall.`,
+    h: ['give me a hint will you', `This sign isn't nailed down.`],
     inv: (item) => {
         if (game.item !== 'chowderSign') {
-            return [`remove the festive sign 🪧 from the wall and take it`, () => {
+            return [`remove the festive sign from the wall and take it`, () => {
                 if (game.location === 'smellyRoom') {
-                    msg(`The sign 🪧 is stuck where it is.`)
+                    msg(`The sign is stuck where it is.`)
                 } else {
                     takeItem("chowderSign")
                     if (game.things.chowderFestival.location === 'diningHall') {

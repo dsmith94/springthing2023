@@ -1,6 +1,6 @@
 
 Game.rooms.frontDoor = () => {
-  header(`Front Door`)
+  header(`At the Front Door`)
 
   msu()
 

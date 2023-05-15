@@ -19,7 +19,7 @@ Game.rooms.griffinRoom = () => {
     if (game.whistle) {
       cmd('w', ['blow whistle', () => {
         msg(`“What an annoying sound,” said the griffin with a sneer.`)
-        msg(`Moments later an owl 🦉 descends near the griffin. “What a challenging riddle!” hoots the owl. 
+        msg(`Moments later an owl descends near the griffin. “What a challenging riddle!” hoots the owl. 
         “Of course, the answer depends on the hypotenuse of x.”`)
         msg(`The griffin flushes red with rage. “What do you know of riddles?”`)
         msg(`“Quite a lot, I should say,” said the owl. “Do you know my friend, the sphinx?”`)
@@ -31,7 +31,7 @@ Game.rooms.griffinRoom = () => {
       }])
     }
     if (game.pepper) {
-        cmd('g', [`grind pepper`, `“Cut that out,” says the griffin. “I don't like the smell of pepper.”`])
+        cmd('g', [`grind pepper`, `“ACHOO! Cut that out,” says the griffin. “Pepper makes me sneezy.”`])
     }
   }
 

@@ -1,5 +1,5 @@
 
-function msg(txt, className) {
+function msg(txt, classList) {
 
     const checkForBoxChars = (inp) => {
         lst = inp.split('~')
@@ -14,8 +14,8 @@ function msg(txt, className) {
     const con = document.getElementById('con')
     if (con) {
         const e = document.createElement('div')
-        if (className) {
-            e.className = className
+        if (classList) {
+            e.classList = classList
         } else {
             e.className = "sep"
         }

@@ -4,9 +4,9 @@ function ranking() {
     const maxScore = 65
 
     const list = [
-        'inept thief',
+        'bungling burglar',
         'lost explorer',
-        'semi-competent burglar',
+        'semi-competent castle-crawler',
         'skilled treasure-hunter',
         'master adventurer',
     ]

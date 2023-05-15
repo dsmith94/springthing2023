@@ -2,7 +2,7 @@
 Game.rooms.clamRoom = () => {
   header(`Dungeon`)
   
-  desc(`You are in the dungeon. The castle walls round off into a bleak damp cave. The 
+  desc(`The hewn dungeon walls round off as they deepen into a bleak, damp cave. The 
   air is thick and wet.`)
   
   setExitsHeader(["up", "down"])

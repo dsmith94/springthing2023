@@ -2,7 +2,7 @@
 Game.rooms.scullery = () => {
   header(`Scullery`)
 
-  desc(`You're in a filthy old scullery. A narrow stair leads downwards to the dining hall.`)
+  desc(`You're in a filthy old scullery. It all but sickens your stomach to think of food prepared in here. A narrow stair leads downwards to the dining hall.`)
 
   setExitsHeader(["right", "down"])
 

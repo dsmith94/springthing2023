@@ -2,7 +2,7 @@
 Game.rooms.throneRoom = () => {
   header(`Throne Room`)
 
-  desc(`Once, this was a magnificent throne room, but has been long abandoned.`)
+  desc(`Once, this was a magnificent throne room, but any former glory has long since been stolen or decayed.`)
 
   setExitsHeader(["right", "up"])
   cmd('s', [`Smell throne room`, `It smells of old royalty.`])

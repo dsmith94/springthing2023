@@ -2,7 +2,8 @@
 Game.rooms.mirrorsHall = () => {
   if (game.things.barbershopQuartet.location === 'mirrorsHall') {
     header(`Hall of Mirrors`)
-    desc(`You're in a room full of warpy mirrors, like in a funhouse.`)
+    desc(`The walls are covered full of warpy mirrors, like in a funhouse. Some sinister presence lurks here, beyond
+    mere carnival nightmares.`)
     cmd(
         ["left", "right"],
         [
@@ -20,7 +21,7 @@ Game.rooms.mirrorsHall = () => {
     }])
   } else {
     header(`Hall of (Smashed) Mirrors`)
-    desc(`You're in a room full of broken shards and dangerous, cut glass.`)
+    desc(`The former funhouse effect is gone—this is now a chamber of broken shards and dangerous, cut glass.`)
     cmd(
         ["left", "right"],
         [
